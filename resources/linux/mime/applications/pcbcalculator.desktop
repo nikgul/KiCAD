@@ -1,9 +1,10 @@
 [Desktop Entry]
-Version=1.0
+Version=1.1
 Terminal=false
 Icon=pcbcalculator
 Type=Application
 Categories=Development;Electronics;
+Keywords=KiCad;Printed circuit Board;PCB;Calculator
 Exec=pcb_calculator
 Name=PCB Calculator
 GenericName=PCB Calculator

@@ -1,9 +1,10 @@
 [Desktop Entry]
-Version=1.0
+Version=1.1
 Terminal=false
 Icon=pcbnew
 Type=Application
 Categories=Development;Electronics;
+Keywords=KiCad;Printed circuit Board;PCB;Layout
 Exec=pcbnew %f
 MimeType=application/x-kicad-pcb;
 Name=Pcbnew (Standalone)

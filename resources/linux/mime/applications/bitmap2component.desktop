@@ -1,9 +1,10 @@
 [Desktop Entry]
-Version=1.0
+Version=1.1
 Terminal=false
 Icon=bitmap2component
 Type=Application
 Categories=Development;Electronics;
+Keywords=KiCad;Image;Convert;Component
 Exec=bitmap2component
 Name=Bitmap to Component Converter
 GenericName=Bitmap to Component Converter

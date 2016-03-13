@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Terminal=false
+Icon=pl_editor
+Type=Application
+Categories=Development;Electronics;
+Keywords=KiCad;Page;Layout
+Exec=pl_editor %f
+MimeType=application/x-kicad-pagelayout;
+Name=Pl_editor (Standalone)
+GenericName=KiCad Page layout editor
+Comment=Work with a KiCad Page Layout outside of the KiCad framework
+

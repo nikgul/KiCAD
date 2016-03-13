@@ -1,15 +1,16 @@
 [Desktop Entry]
-Version=1.0
+Version=1.1
 Terminal=false
 Icon=eeschema
 Type=Application
 Categories=Development;Electronics;
+Keywords=KiCad;Schematic;Design;Standalone
 Exec=eeschema %f
 MimeType=application/x-kicad-schematic;
 Name=Eeschema (Standalone)
 GenericName=Electronic schematic capture
 GenericName[fr]=Saisie de schéma électronique
 GenericName[it]=Disegno di schemi elettrici
-Comment=KiCad electronic schematic design (standalone)
+Comment=KiCad electronic schematic design (Standalone)
 Comment[fr]=Dessiner des schémas électroniques (Standalone)
 Comment[it]=Progettazione di schemi elettrici (Standalone)

@@ -1,10 +1,11 @@
 [Desktop Entry]
-Version=1.0
+Version=1.1
 Terminal=false
 Icon=gerbview
 Type=Application
 Categories=Development;Electronics;
-Exec=gerbview
+Keywords=KiCad;Gerber;View
+Exec=gerbview %f
 MimeType=application/x-gerber;application/x-excellon
 Name=GerbView
 GenericName=Gerber File Viewer
