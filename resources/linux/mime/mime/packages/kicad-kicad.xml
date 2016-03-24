@@ -1,21 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+	<mime-type type="application/x-kicad-drill">
+		<sub-class-of type="text/plain"/>
+		<comment>KiCad PCB drill file</comment>
+		<glob pattern="*.drl"/>
+	</mime-type>
+	<mime-type type="application/x-kicad-componets">
+		<sub-class-of type="text/plain"/>
+		<comment>KiCad Project component assignment</comment>
+		<glob pattern="*.cmp"/>
+	</mime-type>
+	<mime-type type="application/x-kicad-gerber">
+		<sub-class-of type="text/plain"/>
+		<comment>KiCad Gerber file</comment>
+		<glob pattern="*-B.Adhes.gba"/>
+		<glob pattern="*-B.Adhes.gbr"/>
+		<glob pattern="*-B.CrtYd.gbr"/>
+		<glob pattern="*-B.Cu.gbl"/>
+		<glob pattern="*-B.Cu.gbr"/>
+		<glob pattern="*-B.Fab.gbr"/>
+		<glob pattern="*-B.Mask.gbr"/>
+		<glob pattern="*-B.Mask.gbs"/>
+		<glob pattern="*-B.Paste.gbp"/>
+		<glob pattern="*-B.Paste.gbr"/>
+		<glob pattern="*-B.SilkS.gbo"/>
+		<glob pattern="*-B.SilkS.gbr"/>
+		<glob pattern="*-Cmts.User.gbr"/>
+		<glob pattern="*-Dwgs.User.gbr"/>
+		<glob pattern="*-Eco1.User.gbr"/>
+		<glob pattern="*-Eco2.User.gbr"/>
+		<glob pattern="*-Edge.Cuts.gbr"/>
+		<glob pattern="*-Edge.Cuts.gm1"/>
+		<glob pattern="*-F.Adhes.gbr"/>
+		<glob pattern="*-F.Adhes.gta"/>
+		<glob pattern="*-F.CrtYd.gbr"/>
+		<glob pattern="*-F.Cu.gbr"/>
+		<glob pattern="*-F.Cu.gtl"/>
+		<glob pattern="*-F.Fab.gbr"/>
+		<glob pattern="*-F.Mask.gbr"/>
+		<glob pattern="*-F.Mask.gts"/>
+		<glob pattern="*-F.Paste.gbr"/>
+		<glob pattern="*-F.Paste.gtp"/>
+		<glob pattern="*-F.SilkS.gbr"/>
+		<glob pattern="*-F.SilkS.gto"/>
+		<glob pattern="*-Margin.gbr"/>
+	</mime-type>
+	<mime-type type="application/x-kicad-netlist">
+		<sub-class-of type="text/plain"/>
+		<comment>KiCad Project netlist</comment>
+		<glob pattern="*.net"/>
+	</mime-type>
 	<mime-type type="application/x-kicad-project">
 		<sub-class-of type="text/plain"/>
 		<comment>KiCad Project</comment>
 		<comment xml:lang="fr">Projet KiCad</comment>
 		<glob pattern="*.pro"/>
 	</mime-type>
-	<mime-type type="application/x-kicad-schematic">
+	<mime-type type="application/x-kicad-pagelayout">
 		<sub-class-of type="text/plain"/>
-		<comment>KiCad Schematic</comment>
-		<comment xml:lang="fr">Schéma électronique KiCad</comment>
-		<glob pattern="*.sch"/>
+		<comment>KiCad Page Layout</comment>
+		<glob pattern="*.kicad_wks"/>
 	</mime-type>
 	<mime-type type="application/x-kicad-pcb">
 		<sub-class-of type="text/plain"/>
 		<comment>KiCad Printed Circuit Board</comment>
 		<comment xml:lang="fr">Circuit imprimé KiCad</comment>
 		<glob pattern="*.kicad_pcb"/>
+	</mime-type>
+	<mime-type type="application/x-kicad-pcbcalculator">
+		<sub-class-of type="text/plain"/>
+		<comment>KiCad PCB Calculator data file</comment>
+		<glob pattern="*.pcbcalc"/>
+	</mime-type>
+	<mime-type type="application/x-kicad-position">
+		<sub-class-of type="text/plain"/>
+		<comment>KiCad PCB Position file</comment>
+		<glob pattern="*-all.pos"/>
+		<glob pattern="*-bottom.pos"/>
+		<glob pattern="*-top.pos"/>
+	</mime-type>
+	<mime-type type="application/x-kicad-schematic">
+		<sub-class-of type="text/plain"/>
+		<comment>KiCad Schematic</comment>
+		<comment xml:lang="fr">Schéma électronique KiCad</comment>
+		<glob pattern="*.sch"/>
 	</mime-type>
 </mime-info>
