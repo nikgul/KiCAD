@@ -1,0 +1,22 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>Electronics</Name>
+    <Exclude>
+      <And><Category>KiCad</Category></And>
+    </Exclude>
+    <Menu>
+      <Name>KiCad EDA Suite</Name>
+      <Directory>electronics-KiCad.directory</Directory>
+      <Include>
+        <Filename>kicad.desktop</Filename>
+        <Separator/>
+          <Include>
+            <Category>KiCad</Category>
+          </Include>
+      </Include>
+    </Menu>
+  </Menu>
+</Menu>
