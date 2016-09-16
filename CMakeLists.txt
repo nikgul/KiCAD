@@ -812,8 +812,10 @@ endif()
 # 'CMakeLists.txt' files to process
 #================================================
 
+# Libraries ( CMake targets )
+add_subdirectory( libs )
+
 # Binaries ( CMake targets )
-add_subdirectory( bitmaps_png )
 add_subdirectory( common )
 add_subdirectory( 3d-viewer )
 add_subdirectory( cvpcb )
