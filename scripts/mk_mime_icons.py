@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 from shutil import copyfile, rmtree
 from subprocess import call
 
-ICON_SOURCES = "../bitmaps_png/sources/"
+ICON_SOURCES = "../libs/gfx/bitmaps/sources/"
 DEST_FOLDER = "../resources/linux/mime"
 
 def icon_sourcename(icon):
